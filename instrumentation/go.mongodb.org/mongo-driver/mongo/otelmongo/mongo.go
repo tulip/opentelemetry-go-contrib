@@ -17,6 +17,7 @@ package otelmongo // import "go.opentelemetry.io/contrib/instrumentation/go.mong
 import (
 	"context"
 	"fmt"
+	"math"
 	"strconv"
 	"strings"
 	"sync"
@@ -107,10 +108,14 @@ func (m *monitor) Finished(evt *event.CommandFinishedEvent, err error) {
 }
 
 // TODO sanitize values where possible, then reenable `db.statement` span attributes default.
-// TODO limit maximum size.
 func sanitizeCommand(command bson.Raw) string {
-	b, _ := bson.MarshalExtJSON(command, false, false)
-	return string(b)
+	bytes, _ := bson.MarshalExtJSON(command, false, false)
+
+	rawJson := string(bytes)
+	// The maximum length of an attribute value is 4095 characters
+	truncateLen := math.Min(float64(len(rawJson)), 4094)
+
+	return rawJson[0:int(truncateLen)]
 }
 
 // extractCollection extracts the collection for the given mongodb command event.
