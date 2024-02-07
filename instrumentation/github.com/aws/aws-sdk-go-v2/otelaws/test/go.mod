@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/test
+module github.com/tulip/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/test
 
 go 1.20
 

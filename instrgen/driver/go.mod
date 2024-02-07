@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrgen/driver
+module github.com/tulip/opentelemetry-go-contrib/instrgen/driver
 
 go 1.20
 

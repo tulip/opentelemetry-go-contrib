@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux/test
+module github.com/tulip/opentelemetry-go-contrib/instrumentation/github.com/gorilla/mux/otelmux/test
 
 go 1.20
 

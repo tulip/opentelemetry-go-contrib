@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+module github.com/tulip/opentelemetry-go-contrib/instrumentation/net/http/otelhttp
 
 go 1.20
 

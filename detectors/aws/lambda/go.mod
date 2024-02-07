@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/detectors/aws/lambda
+module github.com/tulip/opentelemetry-go-contrib/detectors/aws/lambda
 
 go 1.20
 

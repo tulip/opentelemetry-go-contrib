@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/test
+module github.com/tulip/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc/test
 
 go 1.20
 

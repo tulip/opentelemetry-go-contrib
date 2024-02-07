@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrgen/testdata/interface
+module github.com/tulip/opentelemetry-go-contrib/instrgen/testdata/interface
 
 go 1.20
 

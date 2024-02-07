@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/test
+module github.com/tulip/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/test
 
 go 1.20
 

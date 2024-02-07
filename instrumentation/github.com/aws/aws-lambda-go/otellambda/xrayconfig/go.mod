@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/xrayconfig
+module github.com/tulip/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/xrayconfig
 
 go 1.20
 
