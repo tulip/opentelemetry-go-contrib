@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/detectors/aws/ec2
+github.com/tulip/opentelemetry-go-contrib/contrib/detectors/aws/ec2
 
 go 1.20
 

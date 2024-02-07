@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron
+github.com/tulip/opentelemetry-go-contrib/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron
 
 go 1.20
 

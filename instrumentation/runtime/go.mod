@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/runtime
+github.com/tulip/opentelemetry-go-contrib/contrib/instrumentation/runtime
 
 go 1.20
 

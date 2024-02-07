@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho/test
+github.com/tulip/opentelemetry-go-contrib/contrib/instrumentation/github.com/labstack/echo/otelecho/test
 
 go 1.20
 

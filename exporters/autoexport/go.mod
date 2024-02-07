@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/exporters/autoexport
+github.com/tulip/opentelemetry-go-contrib/contrib/exporters/autoexport
 
 go 1.20
 

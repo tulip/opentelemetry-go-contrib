@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/propagators/opencensus
+github.com/tulip/opentelemetry-go-contrib/contrib/propagators/opencensus
 
 go 1.20
 

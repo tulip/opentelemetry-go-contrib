@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/test
+github.com/tulip/opentelemetry-go-contrib/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/test
 
 go 1.20
 

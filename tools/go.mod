@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/tools
+github.com/tulip/opentelemetry-go-contrib/contrib/tools
 
 go 1.21
 

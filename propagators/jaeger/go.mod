@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/propagators/jaeger
+github.com/tulip/opentelemetry-go-contrib/contrib/propagators/jaeger
 
 go 1.20
 

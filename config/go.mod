@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/config
+github.com/tulip/opentelemetry-go-contrib/contrib/config
 
 go 1.20
 

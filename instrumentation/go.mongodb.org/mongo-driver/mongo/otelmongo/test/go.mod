@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo/test
+github.com/tulip/opentelemetry-go-contrib/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo/test
 
 go 1.20
 

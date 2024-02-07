@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/samplers/aws/xray
+github.com/tulip/opentelemetry-go-contrib/contrib/samplers/aws/xray
 
 go 1.20
 
