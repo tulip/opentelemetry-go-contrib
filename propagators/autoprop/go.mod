@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/propagators/autoprop
+module go.opentelemetry.io/contrib/propagators/autoprop
 
 go 1.20
 

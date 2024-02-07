@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/detectors/gcp
+module go.opentelemetry.io/contrib/detectors/gcp
 
 go 1.20
 

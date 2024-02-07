@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/propagators/aws
+module go.opentelemetry.io/contrib/propagators/aws
 
 go 1.20
 

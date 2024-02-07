@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/instrumentation/github.com/gin-gonic/gin/otelgin/test
+module go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin/test
 
 go 1.20
 

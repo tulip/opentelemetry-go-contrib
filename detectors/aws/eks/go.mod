@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/detectors/aws/eks
+module go.opentelemetry.io/contrib/detectors/aws/eks
 
 go 1.20
 

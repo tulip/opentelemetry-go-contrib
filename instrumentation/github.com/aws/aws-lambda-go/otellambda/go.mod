@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda
+module go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda
 
 go 1.20
 

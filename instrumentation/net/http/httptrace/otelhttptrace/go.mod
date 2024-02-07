@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/instrumentation/net/http/httptrace/otelhttptrace
+module go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace
 
 go 1.20
 

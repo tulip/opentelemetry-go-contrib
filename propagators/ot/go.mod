@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/propagators/ot
+module go.opentelemetry.io/contrib/propagators/ot
 
 go 1.20
 

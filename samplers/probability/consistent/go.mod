@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/samplers/probability/consistent
+module go.opentelemetry.io/contrib/samplers/probability/consistent
 
 go 1.20
 

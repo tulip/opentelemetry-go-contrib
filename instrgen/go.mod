@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/instrgen
+module go.opentelemetry.io/contrib/instrgen
 
 go 1.20
 

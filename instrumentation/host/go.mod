@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/instrumentation/host
+module go.opentelemetry.io/contrib/instrumentation/host
 
 go 1.20
 

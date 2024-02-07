@@ -1,4 +1,4 @@
-github.com/tulip/opentelemetry-go-contrib/contrib/bridges/prometheus
+module go.opentelemetry.io/contrib/bridges/prometheus
 
 go 1.20
 
