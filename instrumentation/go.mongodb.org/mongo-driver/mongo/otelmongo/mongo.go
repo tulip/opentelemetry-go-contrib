@@ -43,6 +43,14 @@ type monitor struct {
 }
 
 func (m *monitor) Started(ctx context.Context, evt *event.CommandStartedEvent) {
+
+	// Filter out noisy operations
+	for _, v := range m.cfg.FilteredOperations {
+		if v == evt.CommandName {
+			return
+		}
+	}
+
 	var spanName string
 
 	hostname, port := peerInfo(evt)

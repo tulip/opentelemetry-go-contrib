@@ -29,6 +29,8 @@ type config struct {
 	Tracer trace.Tracer
 
 	CommandAttributeDisabled bool
+
+	FilteredOperations []string
 }
 
 // newConfig returns a config with all Options set.
@@ -75,5 +77,19 @@ func WithTracerProvider(provider trace.TracerProvider) Option {
 func WithCommandAttributeDisabled(disabled bool) Option {
 	return optionFunc(func(cfg *config) {
 		cfg.CommandAttributeDisabled = disabled
+	})
+}
+
+// WithFilteredOperations adds a list of operations to be filtered out from tracing.
+// This might be desired, if the operation happens frequently and provides little
+// to no value.
+// You can call this functions multiple times to add more operations to be filtered.
+func WithFilteredOperations(filteredOperations []string) Option {
+	return optionFunc(func(cfg *config) {
+		if cfg.FilteredOperations == nil {
+			cfg.FilteredOperations = filteredOperations
+		} else {
+			cfg.FilteredOperations = append(cfg.FilteredOperations, filteredOperations...)
+		}
 	})
 }
